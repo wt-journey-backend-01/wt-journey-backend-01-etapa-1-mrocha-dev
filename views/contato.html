@@ -2,31 +2,38 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>DevBurger - Contato</title>
-  <link rel="stylesheet" href="/css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato - DevBurger</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Contato DevBurger</h1>
-    <nav>
-      <a href="/">Página Inicial</a>
-    </nav>
-  </header>
+  <h1>Fale com a DevBurger</h1>
 
-  <main>
-    <h2>Envie sua mensagem</h2>
-    <form action="/contato" method="post">
-      <label for="nome">Nome:</label><br />
-      <input type="text" id="nome" name="nome" required /><br /><br />
+  <form action="/contato" method="POST">
+    <div>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+    </div>
 
-      <label for="email">E-mail:</label><br />
-      <input type="email" id="email" name="email" required /><br /><br />
+    <div>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+    </div>
 
-      <label for="assunto">Assunto:</label><br />
-      <input type="text" id="assunto" name="assunto" required /><br /><br />
+    <div>
+      <label for="assunto">Assunto:</label>
+      <input type="text" id="assunto" name="assunto" required />
+    </div>
 
+    <div>
       <label for="mensagem">Mensagem:</label><br />
-      <textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea><br /><br />
+      <textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea>
+    </div>
 
-      <but
+    <button type="submit">Enviar</button>
+  </form>
+
+  <p><a href="/">Voltar ao início</a></p>
+</body>
+</html>
+
