@@ -1,4 +1,13 @@
 {
+  "name": "devburger",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "Projeto etapa 1 - DevBurger",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Mishel Rocha",
+  "license": "ISC",
   "dependencies": {
     "express": "^5.1.0"
   }
